@@ -123,6 +123,8 @@ namespace DataFlowPaladrome
 
             //Wait for the last block in the pipeline to process all messages.
             printPalindrome.Completion.Wait();
+
+            Console.ReadKey();
         }
     }
 }
